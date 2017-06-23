@@ -11,6 +11,6 @@ summary:
 
 构建一个应用程序时，你通常需要实现定制的逻辑来处理数据和执行其他操作，以便响应客户端的请求。在LoopBack中，做此事有三种方式：
 
-* **[Adding logic to models](Adding-logic-to-models.html)** - adding [remote methods](Remote-methods.html), [remote hooks](Remote-hooks.html) and [operation hooks](Operation-hooks.html).
-* **[Defining boot scripts](Defining-boot-scripts.html)** - writing scripts (in the `/server/boot` directory) that run when the application starts.
-* **[Defining middleware](Defining-middleware.html)** - adding custom [middleware](http://expressjs.com/api.html#middleware) to the application .
+* **[给模型添加逻辑](Adding-logic-to-models.html)** - 添加 [remote methods](Remote-methods.html), [remote hooks](Remote-hooks.html) 和 [operation hooks](Operation-hooks.html).
+* **[定义启动脚本](Defining-boot-scripts.html)** - 编写应用程序启动时运行的脚本 (在 `/server/boot` 目录中)
+* **[定义中间件](Defining-middleware.html)** - 给应用程序添加定制的 [中间件](http://expressjs.com/api.html#middleware)
